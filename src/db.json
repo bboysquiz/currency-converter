@@ -1,0 +1,64 @@
+{
+    "users": {
+        "user_1": {
+            "id": 0,
+            "name": "Nick",
+            "login": "nick97",
+            "password": "qwerty"
+        },
+        "user_2": {
+            "id": 1,
+            "name": "John",
+            "login": "john97",
+            "password": "qwerty"
+        },
+        "user_3": {
+            "id": 2,
+            "name": "Dave",
+            "login": "dave97",
+            "password": "qwerty"
+        },
+        "user_4": {
+            "id": 3,
+            "name": "Bill",
+            "login": "bill97",
+            "password": "qwerty"
+        },
+        "user_5": {
+            "id": 4,
+            "name": "Dale",
+            "login": "dale97",
+            "password": "qwerty"
+        },
+        "user_6": {
+            "id": 5,
+            "name": "Luck",
+            "login": "luck97",
+            "password": "qwerty"
+        },
+        "user_7": {
+            "id": 6,
+            "name": "Jason",
+            "login": "jason97",
+            "password": "qwerty"
+        },
+        "user_8": {
+            "id": 7,
+            "name": "Kate",
+            "login": "kate97",
+            "password": "qwerty"
+        },
+        "user_9": {
+            "id": 8,
+            "name": "Fil",
+            "login": "fil97",
+            "password": "qwerty"
+        },
+        "user_10": {
+            "id": 9,
+            "name": "Lucy",
+            "login": "lucy97",
+            "password": "qwerty"
+        }
+    }
+}

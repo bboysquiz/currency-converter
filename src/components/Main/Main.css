@@ -1,0 +1,203 @@
+.currency-converter{
+    background: url(../../assets/bg.png) center no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: flex-end;   
+    min-height: 100vh;
+}
+.currency-converter__container {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px 230px 70px 230px;
+}
+.currency-converter__title {
+    width: 100%;
+    text-align: center;
+    color: #5b4339;
+    text-transform: uppercase;
+    font-size: 85px;
+    font-weight: 900;
+    line-height: 120px;
+}
+.currency-converter__nomenclature {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.currency-converter__nomenclature-select {
+    height: 50px;
+    width: 250px;
+    background-color: #5b4339;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.currency-converter__amount-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+.currency-converter__amount {
+    color: #5b4339;
+    background-color: #fff;
+    height: 50px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.currency-converter__amount-input{
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+    height: 30px;
+    width: 115px;
+    padding-left: 15px;
+    color: #a6a6a6;
+    font-size: 20px;
+}
+.currency-converter__amount-input:focus{
+    color: #ac5a22;
+}
+
+.currency-converter__button{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background-color: #ac5a22;
+    border: none;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.currency-converter__button:hover{
+    transition: .3s;
+    transform: scale(1.01);
+    opacity: 1;
+}
+.history {
+    background-color: rgba(251, 242, 233, .8);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.history__container {
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.history__title {
+    width: 100%;
+    text-align: center;
+    color: #5b4339;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 120px;
+}
+
+.history__ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.history__list-item {
+    font-size: 18px;
+    font-weight: 500;
+    color: #5b4339;
+    margin-top: 15px;
+    border-bottom: 1px solid #5b4339;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.history__data-span {
+    font-weight: 800;
+}
+
+.history__input {
+    border-radius: 20px;
+    border: none;
+    height: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 0 10px 0 10px;
+}
+.history__select {
+    height: 22px;
+    width: 220px;
+    background-color: #5b4339;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.history__button{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #ac5a22;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.history__button:hover{
+    transition: .3s;
+    transform: scale(1.01);
+    opacity: 1;
+}
+.history__subsribing-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+}
+.history__button-delete-all {
+    width: 400px;
+    margin-top: 20px;
+}
+.history__button-delete-all:hover{
+    background-color: #d4021a;
+}
+.history__button-delete:hover{
+    background-color: #d4021a;
+}
+.history__list-item_subscribed {
+    border: 4px solid rgb(15, 101, 15);
+    border-radius: 20px;
+}

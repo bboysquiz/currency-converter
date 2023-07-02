@@ -1,0 +1,8 @@
+.about__container {
+    background: url(../../assets/bg.png) center no-repeat;
+    background-size: cover; 
+    display: flex;
+    justify-content: flex-end;  
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
