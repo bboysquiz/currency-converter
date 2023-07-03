@@ -46,3 +46,9 @@
 .data__text-data{
     font-weight: 700;
 }
+
+@media screen and (max-width: 758px) {
+    .data__wrapper {
+        width: 320px;
+    }
+}

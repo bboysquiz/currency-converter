@@ -8,7 +8,7 @@
 .header__container {
     display: flex;
     justify-content: flex-start;
-    width: 1900px;
+    width: 1200px;
     padding: 30px 30px 30px 100px;
     align-items: center;
 }
@@ -24,6 +24,11 @@
     align-items: center;
     width: 650px;
 }
+@media screen and (max-width: 1200px) {
+    .header__ul {
+        width: 450px;
+    }
+}
 .header__li a{
     text-decoration: none;
     color: #fff;
@@ -31,6 +36,11 @@
     font-size: 20px;
     padding: 10px;
     border-radius: 30px;
+}
+@media screen and (max-width: 1200px) {
+    .header__li a{
+        font-size: 13px;
+    }
 }
 
 .header__li a:hover {
@@ -50,10 +60,42 @@
     color: #5b4339;
     font-size: 16px;
 }
+@media screen and (max-width: 1200px) {
+    .header__logout-button {     
+        margin-left: 50px;
+        font-size: 13px;
+        padding: 13px;
+    }
+}
 
 .header__logout-button:hover {
     background-color: #d4021a;
     transition: .3s;
     font-size: 19px;
     color: #fff;
+}
+
+@media screen and (max-width: 1200px){
+    .header__container {
+        width: 758px;
+        padding: 30px 15px 30px 15px;
+    }
+}
+
+@media screen and (max-width: 758px){
+    .header__container {
+        width: 320px;
+        padding: 30px 15px 30px 15px;
+    }
+    .header__logo {
+        width: 25px;
+        height: 25px;
+    }
+    .header__ul {
+        width: 320px;
+    }
+    .header__li a{
+        font-size: 9px;
+        padding: 5px;
+    }
 }

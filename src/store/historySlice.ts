@@ -128,7 +128,7 @@ export const subscribe = (index: number): ThunkAction<void, RootState, unknown, 
     const historyItem = state.history.history[index];
 
     if (historyItem.intervalId === null) {
-        const intervalId = setInterval(() => dispatch(fetchCurrencyPrice(index)), 5000);
+        const intervalId = setInterval(() => dispatch(fetchCurrencyPrice(index)), 1800000);
 
         const updatedHistory = state.history.history.map((item, i) =>
             i === index ? { ...item, intervalId, subscribed: true } : item
